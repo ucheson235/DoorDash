@@ -1,0 +1,605 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    line-height: 45px;
+}
+body{
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+h1 h2 h3 h4 h5 h6{
+    font-family: "Poppins", sans-serif;
+    line-height: 60px;
+
+}
+  /* nav bar */
+nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    z-index: 910;
+    background-color: white;
+    
+    
+}
+
+
+a{
+    text-decoration: none;
+}
+.nav-btn{
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.signin{
+    border: none;
+    background-color: red;
+    padding: 15px;
+    border-radius: 50px;
+    color: white;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    width: 200px;
+    cursor: pointer;
+
+}
+.signup{
+    border: none;
+   background-color: white;
+    padding: 15px;
+    border-radius: 50px;
+    color: black;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    width: 200px;
+    cursor: pointer;
+
+}
+
+.btn-signin .btn-signup:hover{
+    transition-duration: 0.5;
+    transition-duration: ease-in-out;
+    transition-duration: ease-in;
+}
+
+
+
+/* head section with hero icon  */
+
+header{
+    z-index: 2;
+    align-items: center;
+    background-image: url(./hero_desktop.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    height: 700px;
+    position: relative;
+    padding-top: 0;
+    font-family: "Poppins", sans-serif;
+    
+    
+}
+
+.dash-logo{
+    position: absolute;
+    left: 50%;
+}
+
+header h1{
+    text-align: center;
+    padding-top: 150px;
+    font-size: 60px; 
+    color: white;
+}
+
+form {
+    text-align: center;
+    margin-top: 28px;
+}
+
+#address {
+    border: none;
+    height:70px;
+    width: 600px;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+#saved {
+    margin-top: 6px;
+    border: none;
+    height:50px;
+    width: 300px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+/* section 2 with scoter house and phone image */
+.sub-container{
+    position: absolute;
+    text-align: center;
+    left: 0;
+    width:100%;
+   cursor: pointer;
+   height: 300px;
+   font-family: "Poppins", sans-serif;
+}
+
+.container-1{
+   position: absolute;
+   left: 10%;
+   text-align: left;
+   
+
+}
+.container-2{
+    position: absolute;
+    left: 45%;
+    text-align: center;
+    
+
+}
+.container-3{
+    position: absolute;
+    right: 10%;
+   text-align: center;
+    
+
+}
+.sub-container h2{
+    font-size: 50px;
+    font-family:"Poppins", sans-serif;
+    font-weight: 400;
+}
+.sub-container p{
+    font-size: 35px;
+    font-family:"Poppins", sans-serif;
+    font-weight: 500;
+}
+
+span{
+    color: red;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+/* section 3 with an image of a woman eating */
+
+.restaurants{
+    text-align: center;
+    position: relative;
+    margin-top: 500px;
+    padding-top: 200px;
+    height: 1500px;
+
+}
+.restaurants-text{
+    position: absolute;
+    top: 700px;
+    left: 10%;
+    text-align: left;
+}
+
+.restaurants-img{
+    position: absolute;
+    top: 670px;
+    right: 10%;
+    
+}
+.restaurants h1{
+    font-size: 70px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.restaurants h2{
+    font-size: 45px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.restaurants p{
+    font-size: 35px;
+    font-family:"Poppins", sans-serif;
+    font-weight: 400;
+}
+.restaurants a{
+    text-align: center;
+    margin-left: 20px;
+    
+    
+}
+
+#btn-rest{
+    width: 500px;
+    border: none;
+    background-color: red;
+    padding: 15px;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+/* section 4 with an image of gifts and flowers  */
+
+.food{
+    position: relative;
+    background-color: rgba(255, 192, 203, 0.2);
+    width: auto;
+    height: 1200px;
+}
+
+.food-img{
+    position: absolute;
+    top: 50px;
+    left: 10%;
+}
+
+.food-text{
+    position: absolute;
+    top: 400px;
+    right: 10%;
+
+}
+.food h1{
+    font-size: 80px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.food p{
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.btn{
+    text-align: center;
+    margin-left: 210px;
+    align-content: center;
+    padding: 10px;
+    background-color: rgb(252, 33, 33);
+    color: antiquewhite;
+    font-weight: bold;
+    font-size:15px ;
+    border: none;
+    border-radius: 20px;
+
+}
+
+/* section 5 image with groceries */
+.section5{
+    background-image: url(./grocery_desktop.avif);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    height:800px ;
+
+}
+
+#grocery{
+    
+   background-color: black;
+   height:800px ;
+   opacity: 0.6;
+    
+}
+
+.grocery{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.grocery h1{
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    
+}
+.grocery h2{
+    font-size: 50px;
+    font-family:"Poppins", sans-serif;
+    font-weight: 400;
+}
+.grocery p{
+    font-size: 25px;
+    font-family:"Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.btn-g{
+    text-align: center;
+
+    padding: 20px;
+    background-color: rgb(252, 33, 33);
+    color: antiquewhite;
+    font-weight: bold;
+    font-size:20px ;
+    border: none;
+    border-radius: 25px;
+    width: 300px;
+    opacity: 0.9;
+    cursor: pointer;
+
+}
+
+/* sections 6 with an image of snacks */
+
+.household{
+    position: relative;
+    width: auto;
+    height: 1000px;
+}
+
+.household-text{
+    position: absolute;
+    top: 200px;
+    left: 10%;
+    text-align: left;
+}
+
+.household-img{
+    position: absolute;
+    top: 90px;
+    right: 10%;
+}
+
+
+.household h1{
+    font-size: 70px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.household p{
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+/* sections 7 with 4 images */
+
+#delivery {
+    position: relative;
+    background-color: rgba(255, 192, 203, 0.2);
+    width: auto;
+    height: 3500px;
+}
+
+
+#gift {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 70px;
+}
+
+div.img1 {
+    position: absolute;
+    top: 300px;
+    left: 10%;
+    
+}
+
+
+div.img2 {
+    position: absolute;
+    top: 300px;
+    right: 10%;
+}
+
+
+div.img3 {
+    position: absolute;
+    top: 1800px;
+    left: 10%;
+}
+
+
+div.img4{
+    position: absolute;
+    top: 1800px;
+    right: 10%;
+}
+
+.img1text {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+}
+
+
+.imgp1 {
+    text-align:center ;
+    font-size: 30px;
+    text-align: left;
+}
+
+#btn-delivery{
+    padding: 20px;
+    background-color: rgb(252, 33, 33);
+    color: antiquewhite;
+    font-weight: bold;
+    font-size:20px ;
+    border: none;
+    border-radius: 25px;
+    width: 300px;
+    opacity: 0.9;
+    cursor: pointer;
+    
+}
+/* section 8 text with image */
+
+.agent{
+    position: relative;
+    width: auto;
+    height: 1200px;
+}
+
+.agent-text{
+    position: absolute;
+    top: 400px;
+    left: 10%;
+    text-align: left;
+}
+
+.agent-img{
+    position: absolute;
+    top: 300px;
+    right: 10%;
+}
+
+
+.agent h1{
+    font-size: 70px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.agent p{
+    font-size: 35px;
+    font-family:"Poppins", sans-serif;
+    font-weight: 300;
+}
+
+/* section 9 text with image */
+
+.businesses{
+    position: relative;
+    background-color:rgba(255, 192, 203, 0.2) ;
+    width: auto;
+    height: 1500px;
+}
+
+.businesses-img{
+    position: absolute;
+    top: 100px;
+    left: 10%;
+}
+
+.businesses-text{
+    position: absolute;
+    top: 300px;
+    right: 10%;
+    font-size: 22px;
+}
+.businesses-text {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+.businesses p{
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* footer */
+table {
+    width: 100%;
+    margin-top: 40px;
+   
+}
+
+tr, td {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-weight:500px ;
+}
+
+th {
+    margin-left: 5px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom:20px;   
+}
+
+footer {background-color: black;
+}
+
+table.lasttable {
+    width:aut0;
+}
+
+.tb{
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-weight:500px ;
+    color: #ddd;
+}
+
+.row {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-weight:500px ; 
+}
+
+caption {
+    color: #ddd;
+    padding: 35px;
+    font-size: 30px;
+}
+
+
+h5{
+    color: #ddd;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+img.doorlogo {
+    margin:0 auto;
+    display: block;
+    text-align: left;
+}
+
+a:link, a:visited {
+    background-color:rgb(252, 33, 33) ;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 13px;
+    border-radius: 30px;
+    font-size: medium;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+a:hover {
+    background-color:rgb(196, 5, 5) ;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 13px;
+    border-radius: 30px;
+    font-size: medium;
+    font-weight: bold;
+}
